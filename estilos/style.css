@@ -50,6 +50,8 @@ section#login > div#imagem {
     background-position: left bottom;
     height: 200px;
 
+    border-radius: 20px 0 0 20px;
+
 }
 
 section#login > div#formulario {
