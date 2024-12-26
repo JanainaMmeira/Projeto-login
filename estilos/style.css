@@ -50,7 +50,7 @@ section#login > div#imagem {
     background-position: left bottom;
     height: 200px;
 
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 20px 0px 0px;
 
 }
 
@@ -66,6 +66,7 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+    text-align: center;
 }
 
 form > div.campo {
@@ -101,6 +102,7 @@ div.campo > input {
     transform: translateY(-12px);
     border: 0px;
     border-radius: 8px;
+    
     padding: 5px;
 
 }

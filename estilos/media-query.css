@@ -1,6 +1,5 @@
 @charset "UTF-8";
-
-/*Para telas pequenas*/
+/*Para telas Médias*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
@@ -15,7 +14,7 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-         align-items: center;
+        align-items: center;
     }
     
     section#login {
@@ -27,9 +26,6 @@
         float: left;
         width: 30%;
         height: 100%;
-
-        border-radius: 20px 0 0 20px;
-
 
     }
 
@@ -64,7 +60,7 @@
         width: 50%;
         height: 100%;
 
-        border-radius: 20px 0 0 20px;
+        border-radius: 0 20px 20px 0;
 
     }
 
@@ -78,6 +74,8 @@
     }
 
     div#formulario > p {
-        font-size: 2em;
+        font-size: 1.2em;
+        text-align: center;
+    
     }
 }
