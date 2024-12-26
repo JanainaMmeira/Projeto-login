@@ -27,7 +27,8 @@ main {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-     align-items: center;
+    align-items: center;
+    align-content: space-around;
 }
 
 
@@ -49,9 +50,6 @@ section#login > div#imagem {
     background-position: left bottom;
     height: 200px;
 
-   border-top-left-radius: 20px;
-   border-bottom-left-radius: 20px;
-
 }
 
 section#login > div#formulario {
@@ -71,6 +69,7 @@ div#formulario > p {
 form > div.campo {
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
+    
     display: block;
     width: 90%;
     height: 40px;
@@ -79,10 +78,6 @@ form > div.campo {
 
    text-align: center;
 
-   display: block;
-   flex-flow: row nowrap;
-   justify-content: center;
-    align-items: center;
 }
 
 div.campo > label {
@@ -155,6 +150,8 @@ form > input:hover {
 form > a.botao:hover {
     background-color: rgb(98, 194, 162);
 }
+
+
 form > a.botao > i {
     font-size: 0.8em;
 }
