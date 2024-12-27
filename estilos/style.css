@@ -70,8 +70,8 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #5f2c82;
-    border: 2px solid #5f2c82;
+    background-color: #bb75e9a2;
+    border: 2px solid #ba75e9;
     
     display: block;
     width: 90%;
@@ -92,10 +92,11 @@ div.campo > span {
     font-size: 2em;
     width: 40px;
     padding: 5px;
+
 }
 
 div.campo > input {
-    background-color: #7ae7e4;
+    background-color: white;
     font-size: 1em;
     width: 60%;
     height: 100%;
@@ -104,6 +105,8 @@ div.campo > input {
     border-radius: 8px;
     
     padding: 5px;
+
+    text-align: center;
 
 }
 
@@ -158,4 +161,5 @@ form > a.botao:hover {
 
 form > a.botao > i {
     font-size: 0.8em;
+
 }
